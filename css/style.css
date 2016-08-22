@@ -109,6 +109,7 @@ input::-webkit-input-placeholder {
 }
 
 .phone span {
+    color: #5e696d;
     font-family: Arial;
     font-size: 18px;
     letter-spacing: .6px;
@@ -367,7 +368,7 @@ article {
 }
 
 .name h2 {
-    margin-left: 26px;
+    margin-left: 29px;
     font-size: 12px;
     letter-spacing: .6px;
 }
@@ -422,13 +423,16 @@ article {
     font-size: 15px;
 }
 
+.left-column li:hover::before {
+    border: 2px solid #000;
+}
+
 
 /*--------------------------------------CENTER-----------------------------------*/
 
 .main-column {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
     width: 525px;
     height: 600px;
     padding: 14px 0;
@@ -438,8 +442,6 @@ article {
 
 figure {
     margin: 3px 7px 20px 22px;
-    /*width: 175px;
-    height: 137px;*/
 }
 
 .tire {
@@ -460,6 +462,7 @@ figcaption {
 }
 
 figcaption a {
+    color: #22688a;
     font-size: 16px;
     text-decoration: none;
 }
