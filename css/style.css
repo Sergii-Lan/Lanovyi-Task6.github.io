@@ -388,6 +388,7 @@ article {
     margin-left: 30px;
     color: #114165;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .left-column ul {
@@ -506,6 +507,7 @@ p strong i {
     margin-left: 30px;
     color: #114165;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .right-column input {
