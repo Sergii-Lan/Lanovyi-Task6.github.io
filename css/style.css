@@ -369,6 +369,7 @@ article {
 
 .name h2 {
     margin-left: 29px;
+    color: #114165;
     font-size: 12px;
     letter-spacing: .6px;
 }
@@ -385,6 +386,7 @@ article {
 
 .name2 h4 {
     margin-left: 30px;
+    color: #114165;
     font-size: 14px;
 }
 
@@ -405,22 +407,24 @@ article {
     left: -12px;
     width: 3px;
     height: 3px;
-    border: 2px solid #808080;
+    border: 2px solid #465961;
     border-radius: 999px;
     content: '';
 }
 
 .left-column li a {
-    color: #808080;
+    color: #465961;
     font-size: 13px;
     letter-spacing: .4px;
     text-decoration: none;
 }
 
 .left-column li a:hover {
-    border-bottom: 1px solid #808080;
-    color: #000;
-    font-size: 15px;
+    border-bottom: 1px solid #465961;
+    color: #0c3256;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .left-column li:hover::before {
@@ -448,7 +452,7 @@ figure {
     width: 137px;
     height: 126px;
     margin-bottom: 5px;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     border-radius: 10px;
     background: #fff;
 }
@@ -475,6 +479,10 @@ strong span i {
     font-size: 13px;
 }
 
+p strong i {
+    color: #114165;
+}
+
 /*----------------------------------------------RIGHT-------------------------------------*/
 
 .right-column {
@@ -496,6 +504,7 @@ strong span i {
 
 .name3 h4 {
     margin-left: 30px;
+    color: #114165;
     font-size: 14px;
 }
 
@@ -505,6 +514,7 @@ strong span i {
 }
 
 .right-column span {
+    color: #465961;
     font-size: 12px;
     letter-spacing: .6px;
     line-height: 11px;
