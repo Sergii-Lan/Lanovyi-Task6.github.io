@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Arial;
+    src: url('../fonts/arial.ttf');
+}
+
 body {
     font-family: 'lucida_sans_unicoderegular', Arial, "Nimbus Sans L", sans-serif;
 }
